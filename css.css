@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #3c081a;
+    color: white;
+    padding: 15px;
+}
+
+.banniere
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 35px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#accueil {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#produits {
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: #e9ecef;
+}
+
+.produit {
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    gap: 50px;
+}
+
+.produit img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#conception {
+    gap: 15%;
+    padding: 50px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+    
+#fabrication {
+    gap: 15%;
+    padding: 50px;
+    background-color: #e9ecef;
+    justify-content: center;
+    display: flex;
+}
+
+.texte_presentation{
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    gap: 50px;
+}
+
+
+.presentation {
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    gap: 50px;
+}
+
+.presentation img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #3c081a;
+    color: white;
+    padding: 40px;
+}
